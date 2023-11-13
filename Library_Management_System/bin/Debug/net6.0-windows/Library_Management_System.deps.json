@@ -1,0 +1,133 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Library_Management_System/1.0.0": {
+        "dependencies": {
+          "Microsoft.VisualStudio.Windows.Forms": "17.0.0.0",
+          "System.Drawing.VisualStudio.15.0": "4.0.0.0"
+        },
+        "runtime": {
+          "Library_Management_System.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Windows.Forms/17.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.Windows.Forms.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.0.32113.165"
+          }
+        }
+      },
+      "System.Drawing.VisualStudio.15.0/4.0.0.0": {
+        "runtime": {
+          "System.Drawing.VisualStudio.15.0.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "17.0.32113.165"
+          }
+        }
+      },
+      "Microsoft.VisualStudio/17.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.0.32228.430"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.WinForms.Interfaces/17.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.WinForms.Interfaces.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.1.32113.165"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Utilities/17.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.Utilities.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.1.32228.430"
+          }
+        },
+        "resources": {
+          "en/Microsoft.VisualStudio.Utilities.resources.dll": {
+            "locale": "en"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Imaging/17.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.Imaging.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.1.32228.430"
+          }
+        },
+        "resources": {
+          "en/Microsoft.VisualStudio.Imaging.resources.dll": {
+            "locale": "en"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.ImageCatalog/17.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.ImageCatalog.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.1.32228.430"
+          }
+        },
+        "resources": {
+          "en/Microsoft.VisualStudio.ImageCatalog.resources.dll": {
+            "locale": "en"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Library_Management_System/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.Windows.Forms/17.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Drawing.VisualStudio.15.0/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio/17.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.WinForms.Interfaces/17.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.Utilities/17.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.Imaging/17.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.ImageCatalog/17.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

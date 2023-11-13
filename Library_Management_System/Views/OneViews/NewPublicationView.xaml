@@ -1,0 +1,112 @@
+﻿<local:OneViewBase x:Class="Library_Management_System.Views.NewPublicationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Library_Management_System.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary Source="TabStyle.xaml"/>
+    </UserControl.Resources>
+    <Grid Style="{StaticResource LightGrid}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="0" Style="{StaticResource RoundBorder}">
+                <StackPanel>
+                    <Label Content="Dodaj nową publikację" Style="{StaticResource h2}"/>
+                    <Grid Style="{StaticResource WindowGrid}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Label Content="*Tytuł:" Grid.Column="0" Grid.Row="0" Style="{StaticResource Text-Form}"/>
+                    <TextBox Grid.Column="1" Grid.Row="0" Style="{StaticResource textBoxInError}" Validation.ErrorTemplate="{StaticResource validationTemplate}" Text="{Binding Path=Title, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+                        <Label Content="Tom:" Grid.Column="0" Grid.Row="1" Style="{StaticResource Text-Form}"/>
+                    <TextBox Grid.Column="1" Grid.Row="1" Style="{StaticResource textBoxInError}" Validation.ErrorTemplate="{StaticResource validationTemplate}" Text="{Binding Path=Volume, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True, TargetNullValue=''}"/>
+                        <Label Content="*ISBN:" Grid.Column="0" Grid.Row="2" Style="{StaticResource Text-Form}"/>
+                    <TextBox Grid.Column="1" Grid.Row="2" Style="{StaticResource textBoxInError}" Validation.ErrorTemplate="{StaticResource validationTemplate}" Text="{Binding Path=ISBN, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True, TargetNullValue=''}"/>
+                        <Label Content="Rok wydania:" Grid.Column="0" Grid.Row="3" Style="{StaticResource Text-Form}"/>
+                    <TextBox Grid.Column="1" Grid.Row="3" Style="{StaticResource textBoxInError}" Validation.ErrorTemplate="{StaticResource validationTemplate}" Text="{Binding Path=PublishedYear, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True, TargetNullValue=''}"/>
+                        <Label Content="Liczba stron:" Grid.Column="0" Grid.Row="4" Style="{StaticResource Text-Form}"/>
+                    <TextBox Grid.Column="1" Grid.Row="4" Style="{StaticResource textBoxInError}" Validation.ErrorTemplate="{StaticResource validationTemplate}" Text="{Binding Path=PagesNumber, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True, TargetNullValue=''}"/>
+                        <Label Content="Opis publikacji:" Grid.Row="5" Grid.Column="0" Style="{StaticResource First-Text-Form}"/>
+                        <TextBox Grid.Row="6" Grid.Column="0"  Style="{StaticResource RemarksTextbox}" Text="{Binding Path=Description, UpdateSourceTrigger=PropertyChanged}"/>
+                    </Grid>
+                </StackPanel>
+            </Border>
+                <Border Grid.Column="1" Style="{StaticResource RoundBorder}" Margin="10 20 20 20">
+                    <StackPanel>
+                <Label Content="" Style="{StaticResource h2}" Visibility="Hidden"/>
+                <Grid Style="{StaticResource WindowGrid}">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Label Content="*Kategoria:" Grid.Row="0" Grid.Column="0" Style="{StaticResource Text-Form}"/>
+                            <ComboBox Grid.Column="1" Grid.Row="0" Style="{StaticResource Combobox-Form}"
+                            ItemsSource="{Binding CategoriesComboBoxItems}"
+                            DisplayMemberPath="Value"
+                            SelectedValuePath="Key"
+                            SelectedValue="{Binding Path=IDCategory, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                            />
+                            <Label Content="*Podkategoria:" Grid.Row="1" Grid.Column="0" Style="{StaticResource Text-Form}"/>
+                            <ComboBox Grid.Column="1" Grid.Row="1" Style="{StaticResource Combobox-Form}"
+                            ItemsSource="{Binding SubcategoriesComboBoxItems}"
+                            DisplayMemberPath="Value"
+                            SelectedValuePath="Key"
+                            SelectedValue="{Binding Path=IDSubcategory, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                            />
+                            <Label Content="*Wydawnictwo:" Grid.Row="2" Grid.Column="0" Style="{StaticResource Text-Form}"/>
+                            <ComboBox Grid.Column="1" Grid.Row="2" Style="{StaticResource Combobox-Form}"
+                            ItemsSource="{Binding PublishersComboBoxItems}"
+                            DisplayMemberPath="Value"
+                            SelectedValuePath="Key"
+                            SelectedValue="{Binding Path=IDPublisher, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                            />
+                            <Label Content="*Autor:" Grid.Row="3" Grid.Column="0" Style="{StaticResource Text-Form}"/>
+                            <ComboBox Grid.Column="1" Grid.Row="3" Style="{StaticResource Combobox-Form}"
+                            ItemsSource="{Binding AuthorsComboBoxItems}"
+                            DisplayMemberPath="Value"
+                            SelectedValuePath="Key"
+                            SelectedValue="{Binding Path=IDAuthor, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                            />
+                            <Label Content="*Lokalizacja:" Grid.Row="4" Grid.Column="0" Style="{StaticResource Text-Form}"/>
+                            <ComboBox Grid.Column="1" Grid.Row="4" Style="{StaticResource Combobox-Form}"
+                            ItemsSource="{Binding LocationsComboBoxItems}"
+                            DisplayMemberPath="Value"
+                            SelectedValuePath="Key"
+                            SelectedValue="{Binding Path=IDLocation, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                            />
+                            <Button Grid.Row="0" Grid.Column="2" Opacity="0.6" Style="{StaticResource AddButton}" Command="{Binding AddCategoryCommand}"/>
+                            <Button Grid.Row="1" Grid.Column="2" Opacity="0.6" Style="{StaticResource AddButton}" Command="{Binding AddSubcategoryCommand}"/>
+                            <Button Grid.Row="2" Grid.Column="2" Opacity="0.6" Style="{StaticResource SearchButton}" Command="{Binding ShowPublishersCommand}"/>
+                            <Button Grid.Row="3" Grid.Column="2" Opacity="0.6" Style="{StaticResource SearchButton}" Command="{Binding ShowAuthorsCommand}"/>
+                            <Button Grid.Row="4" Grid.Column="2" Opacity="0.6" Style="{StaticResource AddButton}" Command="{Binding AddLocationCommand}"/>
+                            <Label Content="Liczba sztuk:" Grid.Column="0" Grid.Row="5" Style="{StaticResource Text-Form}"/>
+                            <TextBox Grid.Column="1" Grid.Row="5" Style="{StaticResource textBoxInError}" Validation.ErrorTemplate="{StaticResource validationTemplate}" Text="{Binding Path=Amount, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True, TargetNullValue=''}"/>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+    </Grid>
+</local:OneViewBase>

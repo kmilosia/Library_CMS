@@ -1,0 +1,320 @@
+﻿<Window x:Class="Library_Management_System.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library_Management_System"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="System obsługi biblioteki" MouseMove="Window_MouseMove" ResizeMode="NoResize" WindowStyle="None" Height="666" Width="1184">
+    
+    <!--RESOURCES-->
+    <Window.Resources>
+        <ResourceDictionary Source="MainWindowResources.xaml"/>
+    </Window.Resources>
+
+    <!--KEYBOARD INPUT BINDING-->
+    <Window.InputBindings>
+        <KeyBinding Key="A" Modifiers="Ctrl" Command="{Binding NewAuthorCommand}"/>
+        <KeyBinding Key="A" Modifiers="Shift" Command="{Binding AllAuthorsCommand}"/>
+        
+        <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding NewPublisherCommand}"/>
+        <KeyBinding Key="B" Modifiers="Shift" Command="{Binding AllPublishersCommand}"/>
+        
+        <KeyBinding Key="C" Modifiers="Ctrl" Command="{Binding NewCategoryCommand}"/>
+        <KeyBinding Key="C" Modifiers="Shift" Command="{Binding NewSubcategoryCommand}"/>
+        
+        <KeyBinding Key="E" Modifiers="Ctrl" Command="{Binding NewEmployeeCommand}"/>
+        <KeyBinding Key="E" Modifiers="Shift" Command="{Binding AllEmployeesCommand}"/>
+
+        <KeyBinding Key="I" Modifiers="Ctrl" Command="{Binding StockUpdateCommand}"/>
+        <KeyBinding Key="L" Modifiers="Ctrl" Command="{Binding NewLocationCommand}"/>
+        <KeyBinding Key="M" Modifiers="Ctrl" Command="{Binding StockCommand}"/>
+        
+        <KeyBinding Key="O" Modifiers="Ctrl" Command="{Binding OverdueChargeCommand}"/>
+        <KeyBinding Key="O" Modifiers="Shift" Command="{Binding AllOverdueChargesCommand}"/>
+        
+        <KeyBinding Key="P" Modifiers="Ctrl" Command="{Binding NewPublicationCommand}"/>
+        <KeyBinding Key="P" Modifiers="Shift" Command="{Binding AllPublicationsCommand}"/>
+
+        <KeyBinding Key="R" Modifiers="Ctrl" Command="{Binding SettlementReportCommand}"/>
+        <KeyBinding Key="R" Modifiers="Shift" Command="{Binding UpdateDailyRateCommand}"/>
+        
+        <KeyBinding Key="S" Modifiers="Ctrl" Command="{Binding NewPositionCommand}"/>
+
+        <KeyBinding Key="U" Modifiers="Ctrl" Command="{Binding NewUserCommand}"/>
+        <KeyBinding Key="U" Modifiers="Shift" Command="{Binding AllUsersCommand}"/>
+
+        <KeyBinding Key="W" Modifiers="Ctrl" Command="{Binding BorrowingCommand}"/>
+        <KeyBinding Key="Z" Modifiers="Ctrl" Command="{Binding ReturningCommand}"/>
+        <KeyBinding Key="W" Modifiers="Shift" Command="{Binding AllBorrowingsCommand}"/>
+               
+    </Window.InputBindings>
+    
+    <!--TRIGGERS-->
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonOpenMenu">
+            <BeginStoryboard Storyboard="{StaticResource OpenMenu}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonCloseMenu">
+            <BeginStoryboard Storyboard="{StaticResource CloseMenu}"/>
+        </EventTrigger>
+    </Window.Triggers>
+   
+    <!--WINDOW-->
+    <Grid Style="{StaticResource FullGrid}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <!-- MENU BAR-->
+        <Grid Grid.Row="0" Background="#20202d">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Menu Grid.Column="0">
+                <MenuItem Header="_Okno">
+                    <MenuItem Header="Zamknij okno" Style="{StaticResource SubMenuItem}" Click="ButtonClickedCloseWindow">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bcross.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Maksymalizuj okno" Style="{StaticResource SubMenuItem}" Click="ButtonClickMaximizedWindow" >
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bsquare.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Minimalizuj okno" Style="{StaticResource SubMenuItem}" Click="ButtonClickMinimizedWindow">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bminus.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    
+                </MenuItem>
+                <MenuItem Header="_Użytkownik">
+                    <MenuItem Header="Dodaj/edytuj użytkownika" Style="{StaticResource SubMenuItem}"  Command="{Binding NewUserCommand}" InputGestureText="Ctrl + U">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/badd.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Spis użytkowników" Style="{StaticResource SubMenuItem}" Command="{Binding AllUsersCommand}" InputGestureText="Shift + U">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bpeople.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                
+                <MenuItem Header="_Publikacje">
+                    <MenuItem Header="Dodaj/edytuj publikację" Style="{StaticResource SubMenuItem}" Command="{Binding NewPublicationCommand}" InputGestureText="Ctrl + P">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bbook.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Spis publikacji" Style="{StaticResource SubMenuItem}" Command="{Binding AllPublicationsCommand}" InputGestureText="Shift + P">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/blist.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+
+                <MenuItem Header="_Magazyn">
+                    <MenuItem Header="Stan magazynu" Style="{StaticResource SubMenuItem}" Command="{Binding StockCommand}" InputGestureText="Ctrl + M">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/binventory.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Inwentaryzacja magazynu" Style="{StaticResource SubMenuItem}" Command="{Binding StockUpdateCommand}" InputGestureText="Ctrl + I">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bstock.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+
+                <MenuItem Header="_Wypożyczalnia">
+                    <MenuItem Header="Wypożycz" Style="{StaticResource SubMenuItem}" Command="{Binding BorrowingCommand}" InputGestureText="Ctrl + W">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bcart.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Zwróć" Style="{StaticResource SubMenuItem}" Command="{Binding ReturningCommand}" InputGestureText="Ctrl + Z">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/breturn.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Lista wypożyczeń" Style="{StaticResource SubMenuItem}" Command="{Binding AllBorrowingsCommand}" InputGestureText="Shift + W">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bnumerlist.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+
+                <MenuItem Header="_Kadra">
+                    <MenuItem Header="Nowy pracownik" Style="{StaticResource SubMenuItem}" Command="{Binding NewEmployeeCommand}" InputGestureText="Ctrl + E">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/badd.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Wszyscy pracownicy" Style="{StaticResource SubMenuItem}" Command="{Binding AllEmployeesCommand}" InputGestureText="Shift + E">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bbadge.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+
+                <MenuItem Header="Opłaty">
+                    <MenuItem Header="Zrealizuj nową opłatę" Style="{StaticResource SubMenuItem}" Command="{Binding OverdueChargeCommand}" InputGestureText="Ctrl + O">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bpayment.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Wszystkie opłaty" Style="{StaticResource SubMenuItem}" Command="{Binding AllOverdueChargesCommand}" InputGestureText="Shift + O">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bmoney.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+
+                <MenuItem Header="Słownik">
+                    <MenuItem Header="Dodaj nowego autora" Style="{StaticResource SubMenuItem}" Command="{Binding NewAuthorCommand}" InputGestureText="Ctrl + A">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bplus.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Dodaj nowe wydawnictwo" Style="{StaticResource SubMenuItem}" Command="{Binding NewPublisherCommand}" InputGestureText="Ctrl + B">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bplus.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Dodaj nową kategorię" Style="{StaticResource SubMenuItem}" Command="{Binding NewCategoryCommand}" InputGestureText="Ctrl + C">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bplus.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Dodaj nową podkategorię" Style="{StaticResource SubMenuItem}" Command="{Binding NewSubcategoryCommand}" InputGestureText="Shift + C">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bplus.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Dodaj nową lokalizację" Style="{StaticResource SubMenuItem}" Command="{Binding NewLocationCommand}" InputGestureText="Ctrl + L">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bplus.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Dodaj nowe stanowisko" Style="{StaticResource SubMenuItem}" Command="{Binding NewPositionCommand}" InputGestureText="Ctrl + S">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bplus.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Aktualizuj ratę dzienną" Style="{StaticResource SubMenuItem}" Command="{Binding UpdateDailyRateCommand}" InputGestureText="Shift + R">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/bmoney.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Wszyscy autorzy" Style="{StaticResource SubMenuItem}" Command="{Binding AllAuthorsCommand}" InputGestureText="Shift + A">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/blist.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Wszystkie wydawnictwa" Style="{StaticResource SubMenuItem}" Command="{Binding AllPublishersCommand}" InputGestureText="Shift + B">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/blist.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+
+                <MenuItem Header="_Raport">
+                    <MenuItem Header="Raport rozliczeń" Style="{StaticResource SubMenuItem}" Command="{Binding SettlementReportCommand}" InputGestureText="Ctrl + R">
+                        <MenuItem.Icon>
+                            <Image Source="/Views/Icons/breport.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    
+                </MenuItem>
+            </Menu>
+            <StackPanel Grid.Column="1" HorizontalAlignment="Right">
+                <Button ToolTip="Minimalizuj" Style="{StaticResource MinimizeButton}" Click="ButtonClickMinimizedWindow"/>
+                <Button ToolTip="Maksymalizuj" Style="{StaticResource ResizeButton}" Click="ButtonClickMaximizedWindow"/>
+                <Button ToolTip="Zamknij" Style="{StaticResource CloseButton}" Click="ButtonClickedCloseWindow"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- TOOLBAR MENU-->
+        <ToolBar Style="{StaticResource ToolbarNew}" Grid.Row="1">
+            <!--MENU SLIDE BUTTON-->
+            <Button ToolTip="Rozwiń" x:Name="ButtonOpenMenu" Style="{StaticResource SlidePanelButton}" Click="ButtonOpenMenu_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Views/Icons/menu.png"/>
+                </Button.Background>
+            </Button>
+            <Button ToolTip="Zwiń" x:Name="ButtonCloseMenu" Visibility="Collapsed" Style="{StaticResource SlidePanelButton}" Click="ButtonCloseMenu_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Views/Icons/menu.png"/>
+                </Button.Background>
+            </Button>
+            <ToggleButton ToolTip="Raport rozliczenia opłat za przetrzymanie" Style="{DynamicResource DefaultToggleButton}" Command="{Binding SettlementReportCommand}">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="/Views/Icons/report.png"/>
+                </ToggleButton.Background>
+            </ToggleButton>
+            <Label Content="Raport rozliczenia opłat za przetrzymanie"/>
+            <ToggleButton ToolTip="Autor" Style="{DynamicResource DefaultToggleButton}" Command="{Binding NewAuthorCommand}">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="/Views/Icons/plus.png"/>
+                </ToggleButton.Background>
+            </ToggleButton>
+            <Label Content="Dodaj nowego autora"/>
+            <ToggleButton ToolTip="Wydawnictwo" Style="{DynamicResource DefaultToggleButton}" Command="{Binding NewPublisherCommand}">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="/Views/Icons/plus.png"/>
+                </ToggleButton.Background>
+            </ToggleButton>
+            <Label Content="Dodaj nowe wydawnictwo"/>
+        </ToolBar>
+
+        <!--LEFT SIDE BAR MENU-->
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Name="ColumnAnimate" Width="40"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" x:Name="GridMenu"  Style="{StaticResource LeftMenuGrid}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <HeaderedContentControl Grid.Row="1" Content="{Binding Path=Commands}" Margin="0 2 0 0" 
+                 ContentTemplate="{StaticResource CommandsTemplate}" Style="{StaticResource MainHCCStyle}"/>
+            </Grid>
+            
+            <!--WORKSPACE CONTROL-->
+            <Border Grid.Column="1" Style="{StaticResource BorderAroundWorkspace}">
+                <HeaderedContentControl  
+                    Content="{Binding Path=Workspaces}"
+                    ContentTemplate="{StaticResource WorkspacesTemplate}"
+                    Style="{StaticResource MainHCCStyle}"                    
+                    />
+            </Border>
+        </Grid>
+
+        <!--STATUSBAR-->
+        <StatusBar Grid.Row="3" Style="{StaticResource StatusBarDefault}">
+            <StatusBarItem HorizontalAlignment="Left">
+                <Label Content="Biblioteka Publiczna im. Hansa Christiana Andersena" Style="{StaticResource StatusBarLabel}"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <Label Content="{Binding StatusInformation}" Style="{StaticResource TaskConfirmationLabel}"/>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right">
+                <StackPanel>
+                        <Label ToolTip="Czas i data od ostatniej aktualizacji" Content="{Binding Source={x:Static sys:DateTime.Now}}" Style="{StaticResource StatusBarLabel}"/>
+                    <Image Style="{StaticResource ImageLogo}"/>
+                </StackPanel>
+            </StatusBarItem>
+        </StatusBar>
+
+    </Grid>
+</Window>

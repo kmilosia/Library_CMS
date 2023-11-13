@@ -1,0 +1,102 @@
+﻿<local:OneViewBase x:Class="Library_Management_System.Views.NewUserView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Library_Management_System.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary Source="TabStyle.xaml"/>
+    </UserControl.Resources>
+    <Grid Style="{StaticResource LightGrid}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Border Grid.Column="0" Style="{StaticResource RoundBorder}" Margin="20 20 0 10">
+                            <StackPanel>
+                            <Label Content="Dodaj użytkownika" Style="{StaticResource h3}"/>
+                                <Grid Style="{StaticResource WindowGrid}">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Label Content="*Imię:" Grid.Column="0" Grid.Row="0" Style="{StaticResource Text-Form}"/>
+                                    <TextBox Grid.Column="1" Grid.Row="0" Style="{StaticResource textBoxInError}" Validation.ErrorTemplate="{StaticResource validationTemplate}" Text="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+                                    <Label Content="*Nazwisko:" Grid.Column="0" Grid.Row="1" Style="{StaticResource Text-Form}"/>
+                                    <TextBox Grid.Column="1" Grid.Row="1" Style="{StaticResource textBoxInError}" Validation.ErrorTemplate="{StaticResource validationTemplate}" Text="{Binding Path=Surname, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+                                    <Label Content="*Płeć:" Grid.Column="0" Grid.Row="2" Style="{StaticResource Text-Form}"/>
+                                    <ComboBox Grid.Column="1" Grid.Row="2" Style="{StaticResource Combobox-Form}"
+                                    ItemsSource="{Binding GendersComboBoxItems}"
+                                    DisplayMemberPath="Value"
+                                    SelectedValuePath="Key"
+                                    SelectedValue="{Binding Path=IDGender, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                                    />
+                                    <Label Content="*Data urodzenia:" Grid.Column="0" Grid.Row="3" Style="{StaticResource Text-Form}"/>
+                                    <DatePicker Grid.Row="3" Grid.Column="1" Style="{StaticResource Datepicker-Form}" SelectedDate="{Binding Path=Birthday, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                </Grid>
+                            </StackPanel>
+                        </Border>
+                        <Border Grid.Row="1" Style="{StaticResource RoundBorder}" Margin="20 0 0 20">
+                            <StackPanel>
+                                <Label Content="Dane kontaktowe" Style="{StaticResource h3}"/>
+                                <Grid Style="{StaticResource WindowGrid}">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Label Content="*Email:" Grid.Column="0" Grid.Row="0" Style="{StaticResource Text-Form}"/>
+                                    <TextBox Grid.Column="1" Grid.Row="0" Style="{StaticResource textBoxInError}" Validation.ErrorTemplate="{StaticResource validationTemplate}" Text="{Binding Path=Email, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+                                    <Label Content="Numer telefonu:" Grid.Column="0" Grid.Row="1" Style="{StaticResource Text-Form}"/>
+                                    <TextBox Grid.Column="1" Grid.Row="1" Style="{StaticResource textBoxInError}" Validation.ErrorTemplate="{StaticResource validationTemplate}" Text="{Binding Path=PhoneNumber, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+                                </Grid>
+                            </StackPanel>
+                        </Border>
+                </Grid>
+                    <Border Grid.Column="1" Style="{StaticResource RoundBorder}" Margin="10 20 20 20">
+                        <StackPanel>
+                            <Label Content="Adres" Style="{StaticResource h3}"/>
+                            <Grid Style="{StaticResource WindowGrid}">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Content="*Ulica:" Grid.Column="0" Grid.Row="0" Style="{StaticResource Text-Form}"/>
+                                <TextBox Grid.Column="1" Grid.Row="0" Style="{StaticResource Textbox-Form}" Text="{Binding Path=Street, UpdateSourceTrigger=PropertyChanged}"/>
+                                <Label Content="*Numer domu:" Grid.Column="0" Grid.Row="1" Style="{StaticResource Text-Form}"/>
+                                <TextBox Grid.Column="1" Grid.Row="1" Style="{StaticResource Textbox-Form}" Text="{Binding Path=HouseNumber, UpdateSourceTrigger=PropertyChanged}"/>
+                                <Label Content="*Kod pocztowy:" Grid.Column="0" Grid.Row="2" Style="{StaticResource Text-Form}"/>
+                                <TextBox Grid.Column="1" Grid.Row="2" Style="{StaticResource Textbox-Form}" Text="{Binding Path=Postcode, UpdateSourceTrigger=PropertyChanged}"/>
+                                <Label Content="*Miasto:" Grid.Column="0" Grid.Row="3" Style="{StaticResource Text-Form}"/>
+                                <TextBox Grid.Column="1" Grid.Row="3" Style="{StaticResource textBoxInError}" Validation.ErrorTemplate="{StaticResource validationTemplate}" Text="{Binding Path=City, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+                                <Label Content="*Kraj:" Grid.Column="0" Grid.Row="4" Style="{StaticResource Text-Form}"/>
+                                <TextBox Grid.Column="1" Grid.Row="4" Style="{StaticResource textBoxInError}" Validation.ErrorTemplate="{StaticResource validationTemplate}" Text="{Binding Path=Country, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+    </Grid>
+</local:OneViewBase>
+

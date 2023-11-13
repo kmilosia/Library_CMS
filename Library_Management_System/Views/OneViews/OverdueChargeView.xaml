@@ -1,0 +1,105 @@
+﻿<local:OneViewBase x:Class="Library_Management_System.Views.OverdueChargeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Library_Management_System.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary Source="TabStyle.xaml"/>
+    </UserControl.Resources>
+    <Grid Style="{StaticResource LightGrid}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="0" Style="{StaticResource RoundBorder}">
+            <StackPanel>
+                <Label Content="Opłata za przetrzymanie" Style="{StaticResource h2}"/>
+                <Grid Style="{StaticResource WindowGrid}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Content="*ID wypożyczenia:" Grid.Column="0" Grid.Row="0" Style="{StaticResource Text-Form}"/>
+                    <TextBox Grid.Column="1" Grid.Row="0" IsEnabled="false"  Style="{StaticResource Textbox-Form}" Text="{Binding Path=IDBorrowing, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Button Grid.Column="2" Style="{StaticResource SearchButton}" Command="{Binding ShowBorrowingsCommand}"/>
+                    <Label Content="Dane użytkownika:" Grid.Column="0" Grid.Row="1" Style="{StaticResource Text-Form}"/>
+                    <TextBox Grid.Column="1" Grid.Row="1" IsEnabled="false"  Style="{StaticResource Textbox-Form}" Text="{Binding BorrowingUser, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Content="Tytuł:" Grid.Column="0" Grid.Row="2" Style="{StaticResource Text-Form}"/>
+                    <TextBox Grid.Column="1" Grid.Row="2" IsEnabled="false"  Style="{StaticResource Textbox-Form}" Text="{Binding BorrowingTitle, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Content="Termin oddania:" Grid.Column="0" Grid.Row="4" Style="{StaticResource Text-Form}"/>
+                    <DatePicker Grid.Column="1" Grid.Row="4" IsEnabled="false"  Style="{StaticResource Datepicker-Form}" SelectedDate="{Binding ReturningDeadline, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Content="Data oddania:" Grid.Row="5" Grid.Column="0" Style="{StaticResource Text-Form}"/>
+                    <DatePicker Grid.Row="5" Grid.Column="1" IsEnabled="False"  Style="{StaticResource Datepicker-Form}" SelectedDate="{Binding ReturnDate, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Content="*Pracownik obsługujący:" Grid.Row="6" Grid.Column="0" Style="{StaticResource Text-Form}"/>
+                    <ComboBox Grid.Column="1" Grid.Row="6" Style="{StaticResource Combobox-Form}"
+                        ItemsSource="{Binding EmployeesComboBoxItems}"
+                        DisplayMemberPath="Value"
+                        SelectedValuePath="Key"
+                        SelectedValue="{Binding Path=IDEmployee, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"          
+                        />
+                    <Button Grid.Row="6" Grid.Column="2" Style="{StaticResource SearchButton}" Command="{Binding ShowEmployeesCommand}"/>
+                </Grid>
+            </StackPanel>
+        </Border>
+        <Border Grid.Column="1" Style="{StaticResource RoundBorder}" Margin="10 20 20 20">
+            <StackPanel>
+                <Label Content="" Style="{StaticResource h2}" Visibility="Hidden"/>
+                <Grid Style="{StaticResource WindowGrid}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Content="*Kwota do zapłaty:" Grid.Row="0" Grid.Column="0" Style="{StaticResource Text-Form}"/>
+                    <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="{Binding PaymentAmount, UpdateSourceTrigger=PropertyChanged}" Grid.Row="0" Grid.Column="1" Style="{StaticResource Text-Form}" HorizontalAlignment="Center"/>
+                        <Label Margin="-5 10 0 0" Content="zł" Style="{StaticResource Text-Form}"/>
+                    </StackPanel>
+                    <Button Content="Oblicz kwotę do zapłaty" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource FullTabButton}"  Command="{Binding CalculateCommand}"/>
+                    <Label Content="*Metoda płatności:" Grid.Row="2" Grid.Column="0" Style="{StaticResource Text-Form}"/>
+                    <ComboBox Grid.Column="1" Grid.Row="2" Style="{StaticResource Combobox-Form}"
+                            ItemsSource="{Binding PaymentMethodsComboBoxItems}"
+                            DisplayMemberPath="Value"
+                            SelectedValuePath="Key"
+                            SelectedValue="{Binding Path=IDPaymentMethod, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                            />
+                    <Label Content="*Status płatności:" Grid.Row="3" Grid.Column="0" Style="{StaticResource Text-Form}"/>
+                    <ComboBox Grid.Column="1" Grid.Row="3" Style="{StaticResource Combobox-Form}"
+                            ItemsSource="{Binding PaymentStatusesComboBoxItems}"
+                            DisplayMemberPath="Value"
+                            SelectedValuePath="Key"
+                            SelectedValue="{Binding Path=IDPaymentStatus, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                            />
+                    <Label Content="Uwagi:" Grid.Row="4" Grid.Column="0" Style="{StaticResource First-Text-Form}"/>
+                    <TextBox Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource RemarksTextbox}" Text="{Binding Path=Remarks, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Button Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource FullTabButton}" Content="Eksportuj fakturę do PDF" Command="{Binding ExportCommand}"/>
+                </Grid>
+            </StackPanel>
+        </Border>
+    </Grid>
+</local:OneViewBase>

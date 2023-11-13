@@ -1,0 +1,403 @@
+﻿++Solution 'Library_Management_System' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:Library_Management_System.sln
+++Library_Management_System
+i:{00000000-0000-0000-0000-000000000000}:Library_Management_System
+++Dependencies
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:>8464
+++Helper
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\helper\
+++Models
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\
+++BusinessLogic
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\businesslogic\
+++Entities
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\entities\
+++ModelLibrary.edmx
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\entities\modellibrary.edmx
+++EntitiesForView
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\entitiesforview\
+++Validators
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\validators\
+++BusinessValidator.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\validators\businessvalidator.cs
+++NumericValidator.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\validators\numericvalidator.cs
+++StringValidator.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\validators\stringvalidator.cs
+++Validator.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\validators\validator.cs
+++Themes
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\themes\
+++ViewModels
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\
+++Abstract
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\abstract\
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\abstract\
+++CollectionViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\abstract\collectionviewmodel.cs
+++ItemViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\abstract\itemviewmodel.cs
+++AllViewModels
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\allviewmodels\
+++AllBorrowingsViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\allviewmodels\allborrowingsviewmodel.cs
+++AllEmployeesViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\allviewmodels\allemployeesviewmodel.cs
+++AllOverdueChargesViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\allviewmodels\alloverduechargesviewmodel.cs
+++AllPublicationsViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\allviewmodels\allpublicationsviewmodel.cs
+++AllUsersViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\allviewmodels\allusersviewmodel.cs
+++StockViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\allviewmodels\stockviewmodel.cs
+++OneViewModels
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\oneviewmodels\
+++BorrowingViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\oneviewmodels\borrowingviewmodel.cs
+++NewAuthorViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\oneviewmodels\newauthorviewmodel.cs
+++NewEmployeeViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\oneviewmodels\newemployeeviewmodel.cs
+++NewPublicationViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\oneviewmodels\newpublicationviewmodel.cs
+++NewPublisherViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\oneviewmodels\newpublisherviewmodel.cs
+++NewUserViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\oneviewmodels\newuserviewmodel.cs
+++OverdueChargeViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\oneviewmodels\overduechargeviewmodel.cs
+++ReturningViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\oneviewmodels\returningviewmodel.cs
+++StockUpdateViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\oneviewmodels\stockupdateviewmodel.cs
+++ReportViewModels
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\reportviewmodels\
+++BaseViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\baseviewmodel.cs
+++CommandViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\commandviewmodel.cs
+++MainWindowViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\mainwindowviewmodel.cs
+++WorkspaceViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\workspaceviewmodel.cs
+++Views
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\
+++AllViewBase.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\abstract\allviewbase.cs
+++OneViewBase.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\abstract\oneviewbase.cs
+++AllViews
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\allviews\
+++Icons
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\
+++OneViews
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\
+++BorrowingView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\borrowingview.xaml
+++NewAuthorView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\newauthorview.xaml
+++NewEmployeeView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\newemployeeview.xaml
+++NewPublicationView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\newpublicationview.xaml
+++NewPublisherView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\newpublisherview.xaml
+++NewUserView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\newuserview.xaml
+++OverdueChargeView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\overduechargeview.xaml
+++ReturningView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\returningview.xaml
+++StockUpdateView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\stockupdateview.xaml
+++TabStyle.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\tabstyle.xaml
+++Reports
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\reports\
+++MainWindow.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\mainwindow.xaml
+++MainWindowResources.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\mainwindowresources.xaml
+++App.Config
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\app.config
+++App.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\app.xaml
+++AssemblyInfo.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\assemblyinfo.cs
+++bookIcon.ico
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\bookicon.ico
+++magicBookIcon.ico
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\magicbookicon.ico
+++unicorn.ico
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\unicorn.ico
+++Assemblies
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:assemblies
+++Packages
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:packages
+++BaseCommand.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\helper\basecommand.cs
+++DatabaseClass.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\businesslogic\databaseclass.cs
+++OverduePaymentAmountBusiness.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\businesslogic\overduepaymentamountbusiness.cs
+++SettlementBusiness.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\businesslogic\settlementbusiness.cs
+++ShowStockAmountBusiness.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\businesslogic\showstockamountbusiness.cs
+++ModelLibrary.Designer.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\entities\modellibrary.designer.cs
+++ModelLibrary.edmx.diagram
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\entities\modellibrary.edmx.diagram
+++BorrowingForAllView.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\entitiesforview\borrowingforallview.cs
+++EmployeeForAllView.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\entitiesforview\employeeforallview.cs
+++KeyAndValue.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\entitiesforview\keyandvalue.cs
+++OverdueChargeForAllView.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\entitiesforview\overduechargeforallview.cs
+++PublicationForAllView.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\entitiesforview\publicationforallview.cs
+++StockForAllView.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\entitiesforview\stockforallview.cs
+++UserForAllView.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\models\entitiesforview\userforallview.cs
+++Generic.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\themes\generic.xaml
+++SettlementReportViewModel.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\viewmodels\reportviewmodels\settlementreportviewmodel.cs
+++AllBorrowingsView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\allviews\allborrowingsview.xaml
+++AllEmployeesView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\allviews\allemployeesview.xaml
+++AllOverdueChargesView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\allviews\alloverduechargesview.xaml
+++AllPublicationsView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\allviews\allpublicationsview.xaml
+++AllUsersView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\allviews\allusersview.xaml
+++AllViewResources.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\allviews\allviewresources.xaml
+++StockView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\allviews\stockview.xaml
+++badd.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\badd.png
+++badge.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\badge.png
+++bbadge.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bbadge.png
+++bbook.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bbook.png
+++bbooks.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bbooks.png
+++bcart.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bcart.png
+++bcircleplus.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bcircleplus.png
+++bcross.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bcross.png
+++bedit.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bedit.png
+++binventory.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\binventory.png
+++blist.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\blist.png
+++bminus.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bminus.png
+++bmoney.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bmoney.png
+++bnumerlist.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bnumerlist.png
+++book.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\book.png
+++booklist.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\booklist.png
+++books.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\books.png
+++bpay.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bpay.png
+++bpayment.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bpayment.png
+++bpeople.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bpeople.png
+++bplus.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bplus.png
+++bremove.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bremove.png
+++breport.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\breport.png
+++breturn.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\breturn.png
+++bsearch.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bsearch.png
+++bsetting.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bsetting.png
+++bsquare.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bsquare.png
+++bstock.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\bstock.png
+++btime.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\btime.png
+++btrash.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\btrash.png
+++calendar.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\calendar.png
+++cancel.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\cancel.png
+++categories.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\categories.png
+++close.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\close.png
+++edit.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\edit.png
+++empty-image.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\empty-image.png
+++filteroff.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\filteroff.png
+++filteron.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\filteron.png
+++info.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\info.png
+++inventory.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\inventory.png
+++letters.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\letters.png
+++list.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\list.png
+++log.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\log.png
+++menu.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\menu.png
+++minus.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\minus.png
+++money.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\money.png
+++numberlist.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\numberlist.png
+++payment.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\payment.png
+++people.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\people.png
+++person.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\person.png
+++plus.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\plus.png
+++print.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\print.png
+++refresh.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\refresh.png
+++renting.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\renting.png
+++report.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\report.png
+++resize.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\resize.png
+++returning.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\returning.png
+++save.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\save.png
+++search.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\search.png
+++setting.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\setting.png
+++sort.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\sort.png
+++sortaz.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\sortaz.png
+++stock.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\stock.png
+++storytelling.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\storytelling.png
+++summarize.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\summarize.png
+++trash.png
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\icons\trash.png
+++BorrowingView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\borrowingview.xaml.cs
+++NewAuthorView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\newauthorview.xaml.cs
+++NewEmployeeView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\newemployeeview.xaml.cs
+++NewPublicationView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\newpublicationview.xaml.cs
+++NewPublisherView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\newpublisherview.xaml.cs
+++NewUserView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\newuserview.xaml.cs
+++OverdueChargeView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\overduechargeview.xaml.cs
+++ReturningView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\returningview.xaml.cs
+++StockUpdateView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\oneviews\stockupdateview.xaml.cs
+++ReportStyle.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\reports\reportstyle.xaml
+++SettlementReportView.xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\reports\settlementreportview.xaml
+++MainWindow.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\mainwindow.xaml.cs
+++App.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\app.xaml.cs
+++Microsoft.VisualStudio.Windows.Forms
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\microsoft.visualstudio.windows.forms
+++PresentationCore
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\presentationcore
+++PresentationFramework
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\presentationframework
+++System
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\system
+++System.Core
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\system.core
+++System.Data
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\system.data
+++System.Drawing
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\system.drawing
+++System.Drawing.Common
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\system.drawing.common
+++System.Drawing.VisualStudio.15.0
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\system.drawing.visualstudio.15.0
+++System.IO.Compression.FileSystem
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\system.io.compression.filesystem
+++System.Numerics
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\system.numerics
+++System.Runtime.Serialization
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\system.runtime.serialization
+++System.Security
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\system.security
+++System.Windows.Controls.Ribbon
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\system.windows.controls.ribbon
+++System.Xaml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\system.xaml
+++System.Xml
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\system.xml
+++System.Xml.Linq
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\system.xml.linq
+++UIAutomationClient
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\uiautomationclient
+++UIAutomationClientsideProviders
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\uiautomationclientsideproviders
+++UIAutomationProvider
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\uiautomationprovider
+++UIAutomationTypes
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\uiautomationtypes
+++WindowsBase
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\windowsbase
+++EntityFramework (5.0.0)
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:>8489
+++MvvmLight (5.4.1)
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:>8490
+++AllBorrowingsView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\allviews\allborrowingsview.xaml.cs
+++AllEmployeesView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\allviews\allemployeesview.xaml.cs
+++AllOverdueChargesView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\allviews\alloverduechargesview.xaml.cs
+++AllPublicationsView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\allviews\allpublicationsview.xaml.cs
+++AllUsersView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\allviews\allusersview.xaml.cs
+++StockView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\allviews\stockview.xaml.cs
+++SettlementReportView.xaml.cs
+i:{8cd58f8c-ef13-47be-8895-f029561d2b49}:c:\users\klaud\onedrive\pulpit\studia\semestr v\programowanie desktopowych aplikacji biznesowych\biblioteka\library_management_system\views\reports\settlementreportview.xaml.cs

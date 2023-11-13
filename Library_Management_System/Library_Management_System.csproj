@@ -1,0 +1,218 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>magicBookIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net48'">
+		<AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\Entities\ModelLibrary.edmx" />
+    <None Remove="Views\badd.png" />
+    <None Remove="Views\badge.png" />
+    <None Remove="Views\bbook.png" />
+    <None Remove="Views\bbooks.png" />
+    <None Remove="Views\bcart.png" />
+    <None Remove="Views\bcircleplus.png" />
+    <None Remove="Views\bcross.png" />
+    <None Remove="Views\blist.png" />
+    <None Remove="Views\bminus.png" />
+    <None Remove="Views\bnumerlist.png" />
+    <None Remove="Views\book.png" />
+    <None Remove="Views\books.png" />
+    <None Remove="Views\bpay.png" />
+    <None Remove="Views\bpayment.png" />
+    <None Remove="Views\bpeople.png" />
+    <None Remove="Views\bplus.png" />
+    <None Remove="Views\bremove.png" />
+    <None Remove="Views\breport.png" />
+    <None Remove="Views\breturn.png" />
+    <None Remove="Views\bsetting.png" />
+    <None Remove="Views\bsquare.png" />
+    <None Remove="Views\bstock.png" />
+    <None Remove="Views\btime.png" />
+    <None Remove="Views\btrash.png" />
+    <None Remove="Views\cancel.png" />
+    <None Remove="Views\categories.png" />
+    <None Remove="Views\close.png" />
+    <None Remove="Views\edit.png" />
+    <None Remove="Views\empty-image.png" />
+    <None Remove="Views\filteroff.png" />
+    <None Remove="Views\filteron.png" />
+    <None Remove="Views\Icons\bbadge.png" />
+    <None Remove="Views\Icons\bmoney.png" />
+    <None Remove="Views\Icons\book.png" />
+    <None Remove="Views\Icons\close.png" />
+    <None Remove="Views\Icons\edit.png" />
+    <None Remove="Views\Icons\info.png" />
+    <None Remove="Views\Icons\list.png" />
+    <None Remove="Views\Icons\log.png" />
+    <None Remove="Views\Icons\menu.png" />
+    <None Remove="Views\Icons\minus.png" />
+    <None Remove="Views\Icons\money.png" />
+    <None Remove="Views\Icons\people.png" />
+    <None Remove="Views\Icons\person.png" />
+    <None Remove="Views\Icons\print.png" />
+    <None Remove="Views\Icons\renting.png" />
+    <None Remove="Views\Icons\resize.png" />
+    <None Remove="Views\Icons\returning.png" />
+    <None Remove="Views\Icons\search.png" />
+    <None Remove="Views\Icons\setting.png" />
+    <None Remove="Views\Icons\stock.png" />
+    <None Remove="Views\Icons\trash.png" />
+    <None Remove="Views\info.png" />
+    <None Remove="Views\inventory.png" />
+    <None Remove="Views\letters.png" />
+    <None Remove="Views\list.png" />
+    <None Remove="Views\log.png" />
+    <None Remove="Views\menu.png" />
+    <None Remove="Views\minus.png" />
+    <None Remove="Views\money.png" />
+    <None Remove="Views\numberlist.png" />
+    <None Remove="Views\OneViews\bsearch.png" />
+    <None Remove="Views\outline_clear_white_24dp.png" />
+    <None Remove="Views\outline_crop_square_white_24dp.png" />
+    <None Remove="Views\outline_delete_white_24dp.png" />
+    <None Remove="Views\outline_edit_white_24dp.png" />
+    <None Remove="Views\outline_format_list_bulleted_white_24dp.png" />
+    <None Remove="Views\outline_info_white_24dp.png" />
+    <None Remove="Views\outline_logout_white_24dp.png" />
+    <None Remove="Views\outline_manage_accounts_white_24dp.png" />
+    <None Remove="Views\outline_menu_white_24dp.png" />
+    <None Remove="Views\outline_payments_white_24dp.png" />
+    <None Remove="Views\outline_people_white_24dp.png" />
+    <None Remove="Views\outline_print_white_24dp.png" />
+    <None Remove="Views\outline_remove_white_24dp.png" />
+    <None Remove="Views\outline_search_white_24dp.png" />
+    <None Remove="Views\payment.png" />
+    <None Remove="Views\people.png" />
+    <None Remove="Views\person.png" />
+    <None Remove="Views\plus.png" />
+    <None Remove="Views\print.png" />
+    <None Remove="Views\refresh.png" />
+    <None Remove="Views\renting.png" />
+    <None Remove="Views\report.png" />
+    <None Remove="Views\resize.png" />
+    <None Remove="Views\returning.png" />
+    <None Remove="Views\save.png" />
+    <None Remove="Views\search.png" />
+    <None Remove="Views\setting.png" />
+    <None Remove="Views\sort.png" />
+    <None Remove="Views\sortaz.png" />
+    <None Remove="Views\stock.png" />
+    <None Remove="Views\storytelling.png" />
+    <None Remove="Views\summarize.png" />
+    <None Remove="Views\trash.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="magicBookIcon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EntityDeploy Include="Models\Entities\ModelLibrary.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelLibrary.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="5.0.0" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
+    <PackageReference Include="MvvmLight" Version="5.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.Windows.Forms">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Microsoft.VisualStudio.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow\RemoteAgent\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.VisualStudio.15.0">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\System.Drawing.VisualStudio.15.0.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Views\Icons\bcircleplus.png" />
+    <Resource Include="Views\Icons\bplus.png" />
+    <Resource Include="Views\Icons\bpayment.png" />
+    <Resource Include="Views\Icons\bstock.png" />
+    <Resource Include="Views\Icons\badge.png" />
+    <Resource Include="Views\Icons\bbadge.png" />
+    <Resource Include="Views\Icons\bbooks.png" />
+    <Resource Include="Views\Icons\bmoney.png" />
+    <Resource Include="Views\Icons\bsetting.png" />
+    <Resource Include="Views\Icons\bnumerlist.png" />
+    <Resource Include="Views\Icons\breport.png" />
+    <Resource Include="Views\Icons\books.png" />
+    <Resource Include="Views\Icons\cancel.png" />
+    <Resource Include="Views\Icons\categories.png" />
+    <Resource Include="Views\Icons\filteroff.png" />
+    <Resource Include="Views\Icons\filteron.png" />
+    <Resource Include="Views\Icons\bbook.png" />
+    <Resource Include="Views\Icons\bcart.png" />
+    <Resource Include="Views\Icons\binventory.png" />
+    <Resource Include="Views\Icons\blist.png" />
+    <Resource Include="Views\Icons\bpay.png" />
+    <Resource Include="Views\Icons\breturn.png" />
+    <Resource Include="Views\Icons\btime.png" />
+    <Resource Include="Views\Icons\btrash.png" />
+    <Resource Include="Views\Icons\badd.png" />
+    <Resource Include="Views\Icons\bcross.png" />
+    <Resource Include="Views\Icons\bedit.png" />
+    <Resource Include="Views\Icons\bminus.png" />
+    <Resource Include="Views\Icons\bpeople.png" />
+    <Resource Include="Views\Icons\bremove.png" />
+    <Resource Include="Views\Icons\bsquare.png" />
+    <Resource Include="Views\Icons\book.png" />
+    <Resource Include="Views\Icons\close.png" />
+    <Resource Include="Views\Icons\edit.png" />
+    <Resource Include="Views\Icons\empty-image.png" />
+    <Resource Include="Views\Icons\info.png" />
+    <Resource Include="Views\Icons\list.png" />
+    <Resource Include="Views\Icons\log.png" />
+    <Resource Include="Views\Icons\menu.png" />
+    <Resource Include="Views\Icons\minus.png" />
+    <Resource Include="Views\Icons\money.png" />
+    <Resource Include="Views\Icons\people.png" />
+    <Resource Include="Views\Icons\person.png" />
+    <Resource Include="Views\Icons\print.png" />
+    <Resource Include="Views\Icons\renting.png" />
+    <Resource Include="Views\Icons\resize.png" />
+    <Resource Include="Views\Icons\returning.png" />
+    <Resource Include="Views\Icons\search.png" />
+    <Resource Include="Views\Icons\setting.png" />
+    <Resource Include="Views\Icons\stock.png" />
+    <Resource Include="Views\Icons\trash.png" />
+    <Resource Include="Views\Icons\letters.png" />
+    <Resource Include="Views\Icons\numberlist.png" />
+    <Resource Include="Views\Icons\refresh.png" />
+    <Resource Include="Views\Icons\report.png" />
+    <Resource Include="Views\Icons\save.png" />
+    <Resource Include="Views\Icons\sort.png" />
+    <Resource Include="Views\Icons\sortaz.png" />
+    <Resource Include="Views\Icons\summarize.png" />
+    <Resource Include="Views\Icons\inventory.png" />
+    <Resource Include="Views\Icons\payment.png" />
+    <Resource Include="Views\Icons\plus.png" />
+    <Resource Include="Views\Icons\bsearch.png" />
+    <Resource Include="Views\Icons\storytelling.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Models\Entities\ModelLibrary.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ModelLibrary.edmx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

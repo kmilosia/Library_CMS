@@ -1,0 +1,115 @@
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\bin\Debug\net6.0-windows\Library_Management_System.exe
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\bin\Debug\net6.0-windows\Library_Management_System.deps.json
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\bin\Debug\net6.0-windows\Library_Management_System.runtimeconfig.json
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\bin\Debug\net6.0-windows\Library_Management_System.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\bin\Debug\net6.0-windows\Library_Management_System.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.csproj.AssemblyReference.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\StyleResources.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System_MarkupCompile.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System_MarkupCompile.lref
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\MainWindow.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\MainWindowResources.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.g.resources
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.AssemblyInfoInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.AssemblyInfo.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.csproj.CoreCompileInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\refint\Library_Management_System.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.genruntimeconfig.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\ref\Library_Management_System.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\AllBooksView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\AllUsersView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\NewBookView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\NewUserView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\RentingView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\AllBooksView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\AllUsersView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\NewBookView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\NewUserView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\RentingView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\ReturnView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\ReturnView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\bin\Debug\net6.0-windows\Microsoft.VisualStudio.Windows.Forms.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\bin\Debug\net6.0-windows\System.Drawing.VisualStudio.15.0.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\bin\Debug\net6.0-windows\Microsoft.VisualStudio.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\bin\Debug\net6.0-windows\Microsoft.VisualStudio.WinForms.Interfaces.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\bin\Debug\net6.0-windows\Microsoft.VisualStudio.Utilities.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\bin\Debug\net6.0-windows\Microsoft.VisualStudio.Imaging.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\bin\Debug\net6.0-windows\Microsoft.VisualStudio.ImageCatalog.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\bin\Debug\net6.0-windows\en\Microsoft.VisualStudio.Utilities.resources.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\bin\Debug\net6.0-windows\en\Microsoft.VisualStudio.Imaging.resources.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\bin\Debug\net6.0-windows\en\Microsoft.VisualStudio.ImageCatalog.resources.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.csproj.CopyComplete
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\StockView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr IV\Tworzenie interfejsów użytkownika\TIU\Library_Management_System\Library_Management_System\obj\Debug\net6.0-windows\Views\StockView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.csproj.AssemblyReference.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\Views\StyleResources.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\Views\AllBooksView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\Views\AllUsersView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\Views\NewBookView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\Views\NewUserView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\Views\RentingView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\Views\ReturnView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\Views\StockView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System_MarkupCompile.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System_MarkupCompile.lref
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\refint\Library_Management_System.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\OriginalOnlyInterface - Copy\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net6.0-windows\Library_Management_System.exe
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net6.0-windows\Library_Management_System.deps.json
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net6.0-windows\Library_Management_System.runtimeconfig.json
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net6.0-windows\Library_Management_System.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net6.0-windows\Library_Management_System.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net6.0-windows\Microsoft.VisualStudio.Windows.Forms.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net6.0-windows\System.Drawing.VisualStudio.15.0.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net6.0-windows\Microsoft.VisualStudio.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net6.0-windows\Microsoft.VisualStudio.WinForms.Interfaces.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net6.0-windows\Microsoft.VisualStudio.Utilities.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net6.0-windows\Microsoft.VisualStudio.Imaging.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net6.0-windows\Microsoft.VisualStudio.ImageCatalog.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net6.0-windows\en\Microsoft.VisualStudio.Utilities.resources.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net6.0-windows\en\Microsoft.VisualStudio.Imaging.resources.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net6.0-windows\en\Microsoft.VisualStudio.ImageCatalog.resources.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.csproj.AssemblyReference.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\StyleResources.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\AllBooksView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\AllUsersView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\NewBookView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\NewUserView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\RentingView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\ReturnView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\StockView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System_MarkupCompile.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System_MarkupCompile.lref
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\AllBooksView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\AllUsersView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\MainWindow.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\MainWindowResources.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\NewBookView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\NewUserView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\RentingView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\ReturnView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Views\StockView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.g.resources
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.AssemblyInfoInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.AssemblyInfo.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.csproj.CoreCompileInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.csproj.CopyComplete
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\refint\Library_Management_System.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\Library_Management_System.genruntimeconfig.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\ref\Library_Management_System.dll

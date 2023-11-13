@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1e7548825d214d74a4bc43d088d44e18" Name="Diagram1">
+        <EntityTypeShape EntityType="LibraryIMSModel.Address" Width="1.5" PointX="0.75" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.Author" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.Borrowing" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.BorrowingStatus" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.Category" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.Contact" Width="1.5" PointX="0.75" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.DailyRate" Width="1.5" PointX="5.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.Employee" Width="1.5" PointX="3" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.Gender" Width="1.5" PointX="0.75" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.Location" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.OverdueCharge" Width="1.5" PointX="10.5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.PaymentMethod" Width="1.5" PointX="8.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.PaymentStatus" Width="1.5" PointX="8.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.Position" Width="1.5" PointX="0.75" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.Publication" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.Publisher" Width="1.5" PointX="0.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.StockAmount" Width="1.5" PointX="8.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.Subcategory" Width="1.5" PointX="0.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryIMSModel.User" Width="1.5" PointX="3" PointY="17.75" IsExpanded="true" />
+        <AssociationConnector Association="LibraryIMSModel.FK_Employee_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_User_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_Publication_Author" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_Borrowing_BorrowingStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_Borrowing_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_Borrowing_Publication" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_Borrowing_User" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_OverdueCharge_Borrowing" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_Publication_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_Employee_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_User_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_Employee_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_Employee_Position" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_OverdueCharge_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_StockAmount_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_User_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_Publication_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_OverdueCharge_PaymentMethod" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_OverdueCharge_PaymentStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_OverdueCharge_User" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_Publication_Publisher" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_Publication_Subcategory" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryIMSModel.FK_StockAmount_Publication" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

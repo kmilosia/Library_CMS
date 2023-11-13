@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LibraryIMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="IDAddress" />
+    </Key>
+    <Property Name="IDAddress" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Street" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="HouseNumber" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Postcode" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Country" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Employee_Address" FromRole="Address" ToRole="Employee" />
+    <NavigationProperty Name="User" Relationship="Self.FK_User_Address" FromRole="Address" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Author">
+    <Key>
+      <PropertyRef Name="IDAuthor" />
+    </Key>
+    <Property Name="IDAuthor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Surname" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Publication" Relationship="Self.FK_Publication_Author" FromRole="Author" ToRole="Publication" />
+  </EntityType>
+  <EntityType Name="Borrowing">
+    <Key>
+      <PropertyRef Name="IDBorrowing" />
+    </Key>
+    <Property Name="IDBorrowing" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDUser" Type="Int32" />
+    <Property Name="IDEmployee" Type="Int32" />
+    <Property Name="IDPublication" Type="Int32" />
+    <Property Name="BorrowingDate" Type="DateTime" />
+    <Property Name="ReturningDate" Type="DateTime" />
+    <Property Name="ReturningDeadline" Type="DateTime" />
+    <Property Name="Remarks" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IDBorrowingStatus" Type="Int32" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="BorrowingStatus" Relationship="Self.FK_Borrowing_BorrowingStatus" FromRole="Borrowing" ToRole="BorrowingStatus" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Borrowing_Employee" FromRole="Borrowing" ToRole="Employee" />
+    <NavigationProperty Name="Publication" Relationship="Self.FK_Borrowing_Publication" FromRole="Borrowing" ToRole="Publication" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Borrowing_User" FromRole="Borrowing" ToRole="User" />
+    <NavigationProperty Name="OverdueCharge" Relationship="Self.FK_OverdueCharge_Borrowing" FromRole="Borrowing" ToRole="OverdueCharge" />
+  </EntityType>
+  <EntityType Name="BorrowingStatus">
+    <Key>
+      <PropertyRef Name="IDBorrowingStatus" />
+    </Key>
+    <Property Name="IDBorrowingStatus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Borrowing" Relationship="Self.FK_Borrowing_BorrowingStatus" FromRole="BorrowingStatus" ToRole="Borrowing" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="IDCategory" />
+    </Key>
+    <Property Name="IDCategory" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Publication" Relationship="Self.FK_Publication_Category" FromRole="Category" ToRole="Publication" />
+  </EntityType>
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="IDContact" />
+    </Key>
+    <Property Name="IDContact" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Employee_Contact" FromRole="Contact" ToRole="Employee" />
+    <NavigationProperty Name="User" Relationship="Self.FK_User_Contact" FromRole="Contact" ToRole="User" />
+  </EntityType>
+  <EntityType Name="DailyRate">
+    <Key>
+      <PropertyRef Name="IDDailyRate" />
+    </Key>
+    <Property Name="IDDailyRate" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Rate" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="IDEmployee" />
+    </Key>
+    <Property Name="IDEmployee" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Surname" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Birthday" Type="DateTime" />
+    <Property Name="IDPosition" Type="Int32" />
+    <Property Name="IDGender" Type="Int32" />
+    <Property Name="IDContact" Type="Int32" />
+    <Property Name="IDAddress" Type="Int32" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Address" Relationship="Self.FK_Employee_Address" FromRole="Employee" ToRole="Address" />
+    <NavigationProperty Name="Borrowing" Relationship="Self.FK_Borrowing_Employee" FromRole="Employee" ToRole="Borrowing" />
+    <NavigationProperty Name="Contact" Relationship="Self.FK_Employee_Contact" FromRole="Employee" ToRole="Contact" />
+    <NavigationProperty Name="Gender" Relationship="Self.FK_Employee_Gender" FromRole="Employee" ToRole="Gender" />
+    <NavigationProperty Name="Position" Relationship="Self.FK_Employee_Position" FromRole="Employee" ToRole="Position" />
+    <NavigationProperty Name="OverdueCharge" Relationship="Self.FK_OverdueCharge_Employee" FromRole="Employee" ToRole="OverdueCharge" />
+    <NavigationProperty Name="StockAmount" Relationship="Self.FK_StockAmount_Employee" FromRole="Employee" ToRole="StockAmount" />
+  </EntityType>
+  <EntityType Name="Gender">
+    <Key>
+      <PropertyRef Name="IDGender" />
+    </Key>
+    <Property Name="IDGender" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Employee_Gender" FromRole="Gender" ToRole="Employee" />
+    <NavigationProperty Name="User" Relationship="Self.FK_User_Gender" FromRole="Gender" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="IDLocation" />
+    </Key>
+    <Property Name="IDLocation" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Publication" Relationship="Self.FK_Publication_Location" FromRole="Location" ToRole="Publication" />
+  </EntityType>
+  <EntityType Name="OverdueCharge">
+    <Key>
+      <PropertyRef Name="IDOverdueCharge" />
+    </Key>
+    <Property Name="IDOverdueCharge" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDBorrowing" Type="Int32" />
+    <Property Name="IDEmployee" Type="Int32" />
+    <Property Name="IDUser" Type="Int32" />
+    <Property Name="PaymentAmount" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="IDPaymentMethod" Type="Int32" />
+    <Property Name="IDPaymentStatus" Type="Int32" />
+    <Property Name="ReturnDeadline" Type="DateTime" />
+    <Property Name="ReturnDate" Type="DateTime" />
+    <Property Name="Remarks" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Borrowing" Relationship="Self.FK_OverdueCharge_Borrowing" FromRole="OverdueCharge" ToRole="Borrowing" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_OverdueCharge_Employee" FromRole="OverdueCharge" ToRole="Employee" />
+    <NavigationProperty Name="PaymentMethod" Relationship="Self.FK_OverdueCharge_PaymentMethod" FromRole="OverdueCharge" ToRole="PaymentMethod" />
+    <NavigationProperty Name="PaymentStatus" Relationship="Self.FK_OverdueCharge_PaymentStatus" FromRole="OverdueCharge" ToRole="PaymentStatus" />
+    <NavigationProperty Name="User" Relationship="Self.FK_OverdueCharge_User" FromRole="OverdueCharge" ToRole="User" />
+  </EntityType>
+  <EntityType Name="PaymentMethod">
+    <Key>
+      <PropertyRef Name="IDPaymentMethod" />
+    </Key>
+    <Property Name="IDPaymentMethod" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="OverdueCharge" Relationship="Self.FK_OverdueCharge_PaymentMethod" FromRole="PaymentMethod" ToRole="OverdueCharge" />
+  </EntityType>
+  <EntityType Name="PaymentStatus">
+    <Key>
+      <PropertyRef Name="IDPaymentStatus" />
+    </Key>
+    <Property Name="IDPaymentStatus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="OverdueCharge" Relationship="Self.FK_OverdueCharge_PaymentStatus" FromRole="PaymentStatus" ToRole="OverdueCharge" />
+  </EntityType>
+  <EntityType Name="Position">
+    <Key>
+      <PropertyRef Name="IDPosition" />
+    </Key>
+    <Property Name="IDPosition" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Employee_Position" FromRole="Position" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Publication">
+    <Key>
+      <PropertyRef Name="IDPublication" />
+    </Key>
+    <Property Name="IDPublication" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDPublisher" Type="Int32" />
+    <Property Name="IDAuthor" Type="Int32" />
+    <Property Name="IDCategory" Type="Int32" />
+    <Property Name="IDSubcategory" Type="Int32" />
+    <Property Name="IDLocation" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ISBN" Type="String" MaxLength="15" FixedLength="true" Unicode="true" />
+    <Property Name="PublishedYear" Type="String" MaxLength="4" FixedLength="true" Unicode="true" />
+    <Property Name="PagesNumber" Type="String" MaxLength="5" FixedLength="true" Unicode="true" />
+    <Property Name="Volume" Type="String" MaxLength="5" FixedLength="true" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Author" Relationship="Self.FK_Publication_Author" FromRole="Publication" ToRole="Author" />
+    <NavigationProperty Name="Borrowing" Relationship="Self.FK_Borrowing_Publication" FromRole="Publication" ToRole="Borrowing" />
+    <NavigationProperty Name="Category" Relationship="Self.FK_Publication_Category" FromRole="Publication" ToRole="Category" />
+    <NavigationProperty Name="Location" Relationship="Self.FK_Publication_Location" FromRole="Publication" ToRole="Location" />
+    <NavigationProperty Name="Publisher" Relationship="Self.FK_Publication_Publisher" FromRole="Publication" ToRole="Publisher" />
+    <NavigationProperty Name="Subcategory" Relationship="Self.FK_Publication_Subcategory" FromRole="Publication" ToRole="Subcategory" />
+    <NavigationProperty Name="StockAmount" Relationship="Self.FK_StockAmount_Publication" FromRole="Publication" ToRole="StockAmount" />
+  </EntityType>
+  <EntityType Name="Publisher">
+    <Key>
+      <PropertyRef Name="IDPublisher" />
+    </Key>
+    <Property Name="IDPublisher" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FoundingYear" Type="String" MaxLength="4" FixedLength="true" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Publication" Relationship="Self.FK_Publication_Publisher" FromRole="Publisher" ToRole="Publication" />
+  </EntityType>
+  <EntityType Name="StockAmount">
+    <Key>
+      <PropertyRef Name="IDStockAmount" />
+    </Key>
+    <Property Name="IDStockAmount" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDPublication" Type="Int32" />
+    <Property Name="BorrowedAmount" Type="Int32" />
+    <Property Name="Amount" Type="Int32" />
+    <Property Name="LastModified" Type="DateTime" />
+    <Property Name="IDEmployee" Type="Int32" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_StockAmount_Employee" FromRole="StockAmount" ToRole="Employee" />
+    <NavigationProperty Name="Publication" Relationship="Self.FK_StockAmount_Publication" FromRole="StockAmount" ToRole="Publication" />
+  </EntityType>
+  <EntityType Name="Subcategory">
+    <Key>
+      <PropertyRef Name="IDSubcategory" />
+    </Key>
+    <Property Name="IDSubcategory" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Publication" Relationship="Self.FK_Publication_Subcategory" FromRole="Subcategory" ToRole="Publication" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="IDUser" />
+    </Key>
+    <Property Name="IDUser" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Surname" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Birthday" Type="DateTime" />
+    <Property Name="IDGender" Type="Int32" />
+    <Property Name="IDContact" Type="Int32" />
+    <Property Name="IDAddress" Type="Int32" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Address" Relationship="Self.FK_User_Address" FromRole="User" ToRole="Address" />
+    <NavigationProperty Name="Borrowing" Relationship="Self.FK_Borrowing_User" FromRole="User" ToRole="Borrowing" />
+    <NavigationProperty Name="Contact" Relationship="Self.FK_User_Contact" FromRole="User" ToRole="Contact" />
+    <NavigationProperty Name="Gender" Relationship="Self.FK_User_Gender" FromRole="User" ToRole="Gender" />
+    <NavigationProperty Name="OverdueCharge" Relationship="Self.FK_OverdueCharge_User" FromRole="User" ToRole="OverdueCharge" />
+  </EntityType>
+  <Association Name="FK_Employee_Address">
+    <End Role="Address" Type="Self.Address" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="IDAddress" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="IDAddress" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Address">
+    <End Role="Address" Type="Self.Address" Multiplicity="0..1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="IDAddress" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="IDAddress" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Publication_Author">
+    <End Role="Author" Type="Self.Author" Multiplicity="0..1" />
+    <End Role="Publication" Type="Self.Publication" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Author">
+        <PropertyRef Name="IDAuthor" />
+      </Principal>
+      <Dependent Role="Publication">
+        <PropertyRef Name="IDAuthor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Borrowing_BorrowingStatus">
+    <End Role="BorrowingStatus" Type="Self.BorrowingStatus" Multiplicity="0..1" />
+    <End Role="Borrowing" Type="Self.Borrowing" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BorrowingStatus">
+        <PropertyRef Name="IDBorrowingStatus" />
+      </Principal>
+      <Dependent Role="Borrowing">
+        <PropertyRef Name="IDBorrowingStatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Borrowing_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Borrowing" Type="Self.Borrowing" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="IDEmployee" />
+      </Principal>
+      <Dependent Role="Borrowing">
+        <PropertyRef Name="IDEmployee" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Borrowing_Publication">
+    <End Role="Publication" Type="Self.Publication" Multiplicity="0..1" />
+    <End Role="Borrowing" Type="Self.Borrowing" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Publication">
+        <PropertyRef Name="IDPublication" />
+      </Principal>
+      <Dependent Role="Borrowing">
+        <PropertyRef Name="IDPublication" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Borrowing_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Borrowing" Type="Self.Borrowing" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="IDUser" />
+      </Principal>
+      <Dependent Role="Borrowing">
+        <PropertyRef Name="IDUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OverdueCharge_Borrowing">
+    <End Role="Borrowing" Type="Self.Borrowing" Multiplicity="0..1" />
+    <End Role="OverdueCharge" Type="Self.OverdueCharge" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Borrowing">
+        <PropertyRef Name="IDBorrowing" />
+      </Principal>
+      <Dependent Role="OverdueCharge">
+        <PropertyRef Name="IDBorrowing" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Publication_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Publication" Type="Self.Publication" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="IDCategory" />
+      </Principal>
+      <Dependent Role="Publication">
+        <PropertyRef Name="IDCategory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Contact">
+    <End Role="Contact" Type="Self.Contact" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Contact">
+        <PropertyRef Name="IDContact" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="IDContact" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Contact">
+    <End Role="Contact" Type="Self.Contact" Multiplicity="0..1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Contact">
+        <PropertyRef Name="IDContact" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="IDContact" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Gender">
+    <End Role="Gender" Type="Self.Gender" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gender">
+        <PropertyRef Name="IDGender" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="IDGender" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Position">
+    <End Role="Position" Type="Self.Position" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Position">
+        <PropertyRef Name="IDPosition" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="IDPosition" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OverdueCharge_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="OverdueCharge" Type="Self.OverdueCharge" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="IDEmployee" />
+      </Principal>
+      <Dependent Role="OverdueCharge">
+        <PropertyRef Name="IDEmployee" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StockAmount_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="StockAmount" Type="Self.StockAmount" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="IDEmployee" />
+      </Principal>
+      <Dependent Role="StockAmount">
+        <PropertyRef Name="IDEmployee" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Gender">
+    <End Role="Gender" Type="Self.Gender" Multiplicity="0..1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gender">
+        <PropertyRef Name="IDGender" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="IDGender" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Publication_Location">
+    <End Role="Location" Type="Self.Location" Multiplicity="0..1" />
+    <End Role="Publication" Type="Self.Publication" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="IDLocation" />
+      </Principal>
+      <Dependent Role="Publication">
+        <PropertyRef Name="IDLocation" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OverdueCharge_PaymentMethod">
+    <End Role="PaymentMethod" Type="Self.PaymentMethod" Multiplicity="0..1" />
+    <End Role="OverdueCharge" Type="Self.OverdueCharge" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PaymentMethod">
+        <PropertyRef Name="IDPaymentMethod" />
+      </Principal>
+      <Dependent Role="OverdueCharge">
+        <PropertyRef Name="IDPaymentMethod" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OverdueCharge_PaymentStatus">
+    <End Role="PaymentStatus" Type="Self.PaymentStatus" Multiplicity="0..1" />
+    <End Role="OverdueCharge" Type="Self.OverdueCharge" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PaymentStatus">
+        <PropertyRef Name="IDPaymentStatus" />
+      </Principal>
+      <Dependent Role="OverdueCharge">
+        <PropertyRef Name="IDPaymentStatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OverdueCharge_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="OverdueCharge" Type="Self.OverdueCharge" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="IDUser" />
+      </Principal>
+      <Dependent Role="OverdueCharge">
+        <PropertyRef Name="IDUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Publication_Publisher">
+    <End Role="Publisher" Type="Self.Publisher" Multiplicity="0..1" />
+    <End Role="Publication" Type="Self.Publication" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Publisher">
+        <PropertyRef Name="IDPublisher" />
+      </Principal>
+      <Dependent Role="Publication">
+        <PropertyRef Name="IDPublisher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Publication_Subcategory">
+    <End Role="Subcategory" Type="Self.Subcategory" Multiplicity="0..1" />
+    <End Role="Publication" Type="Self.Publication" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subcategory">
+        <PropertyRef Name="IDSubcategory" />
+      </Principal>
+      <Dependent Role="Publication">
+        <PropertyRef Name="IDSubcategory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StockAmount_Publication">
+    <End Role="Publication" Type="Self.Publication" Multiplicity="0..1" />
+    <End Role="StockAmount" Type="Self.StockAmount" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Publication">
+        <PropertyRef Name="IDPublication" />
+      </Principal>
+      <Dependent Role="StockAmount">
+        <PropertyRef Name="IDPublication" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LibraryIMSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Address" EntityType="Self.Address" />
+    <EntitySet Name="Author" EntityType="Self.Author" />
+    <EntitySet Name="Borrowing" EntityType="Self.Borrowing" />
+    <EntitySet Name="BorrowingStatus" EntityType="Self.BorrowingStatus" />
+    <EntitySet Name="Category" EntityType="Self.Category" />
+    <EntitySet Name="Contact" EntityType="Self.Contact" />
+    <EntitySet Name="DailyRate" EntityType="Self.DailyRate" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" />
+    <EntitySet Name="Gender" EntityType="Self.Gender" />
+    <EntitySet Name="Location" EntityType="Self.Location" />
+    <EntitySet Name="OverdueCharge" EntityType="Self.OverdueCharge" />
+    <EntitySet Name="PaymentMethod" EntityType="Self.PaymentMethod" />
+    <EntitySet Name="PaymentStatus" EntityType="Self.PaymentStatus" />
+    <EntitySet Name="Position" EntityType="Self.Position" />
+    <EntitySet Name="Publication" EntityType="Self.Publication" />
+    <EntitySet Name="Publisher" EntityType="Self.Publisher" />
+    <EntitySet Name="StockAmount" EntityType="Self.StockAmount" />
+    <EntitySet Name="Subcategory" EntityType="Self.Subcategory" />
+    <EntitySet Name="User" EntityType="Self.User" />
+    <AssociationSet Name="FK_Employee_Address" Association="Self.FK_Employee_Address">
+      <End Role="Address" EntitySet="Address" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Address" Association="Self.FK_User_Address">
+      <End Role="Address" EntitySet="Address" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Publication_Author" Association="Self.FK_Publication_Author">
+      <End Role="Author" EntitySet="Author" />
+      <End Role="Publication" EntitySet="Publication" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Borrowing_BorrowingStatus" Association="Self.FK_Borrowing_BorrowingStatus">
+      <End Role="BorrowingStatus" EntitySet="BorrowingStatus" />
+      <End Role="Borrowing" EntitySet="Borrowing" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Borrowing_Employee" Association="Self.FK_Borrowing_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Borrowing" EntitySet="Borrowing" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Borrowing_Publication" Association="Self.FK_Borrowing_Publication">
+      <End Role="Publication" EntitySet="Publication" />
+      <End Role="Borrowing" EntitySet="Borrowing" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Borrowing_User" Association="Self.FK_Borrowing_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Borrowing" EntitySet="Borrowing" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OverdueCharge_Borrowing" Association="Self.FK_OverdueCharge_Borrowing">
+      <End Role="Borrowing" EntitySet="Borrowing" />
+      <End Role="OverdueCharge" EntitySet="OverdueCharge" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Publication_Category" Association="Self.FK_Publication_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Publication" EntitySet="Publication" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Contact" Association="Self.FK_Employee_Contact">
+      <End Role="Contact" EntitySet="Contact" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Contact" Association="Self.FK_User_Contact">
+      <End Role="Contact" EntitySet="Contact" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Gender" Association="Self.FK_Employee_Gender">
+      <End Role="Gender" EntitySet="Gender" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Position" Association="Self.FK_Employee_Position">
+      <End Role="Position" EntitySet="Position" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OverdueCharge_Employee" Association="Self.FK_OverdueCharge_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="OverdueCharge" EntitySet="OverdueCharge" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StockAmount_Employee" Association="Self.FK_StockAmount_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="StockAmount" EntitySet="StockAmount" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Gender" Association="Self.FK_User_Gender">
+      <End Role="Gender" EntitySet="Gender" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Publication_Location" Association="Self.FK_Publication_Location">
+      <End Role="Location" EntitySet="Location" />
+      <End Role="Publication" EntitySet="Publication" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OverdueCharge_PaymentMethod" Association="Self.FK_OverdueCharge_PaymentMethod">
+      <End Role="PaymentMethod" EntitySet="PaymentMethod" />
+      <End Role="OverdueCharge" EntitySet="OverdueCharge" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OverdueCharge_PaymentStatus" Association="Self.FK_OverdueCharge_PaymentStatus">
+      <End Role="PaymentStatus" EntitySet="PaymentStatus" />
+      <End Role="OverdueCharge" EntitySet="OverdueCharge" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OverdueCharge_User" Association="Self.FK_OverdueCharge_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="OverdueCharge" EntitySet="OverdueCharge" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Publication_Publisher" Association="Self.FK_Publication_Publisher">
+      <End Role="Publisher" EntitySet="Publisher" />
+      <End Role="Publication" EntitySet="Publication" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Publication_Subcategory" Association="Self.FK_Publication_Subcategory">
+      <End Role="Subcategory" EntitySet="Subcategory" />
+      <End Role="Publication" EntitySet="Publication" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StockAmount_Publication" Association="Self.FK_StockAmount_Publication">
+      <End Role="Publication" EntitySet="Publication" />
+      <End Role="StockAmount" EntitySet="StockAmount" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

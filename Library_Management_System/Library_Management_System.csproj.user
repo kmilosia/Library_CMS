@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\AllViews\AllAuthorsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AllViews\AllPublishersView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AllViews\AllOverdueChargesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneViews\NewCategoryView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneViews\NewLocationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneViews\NewPositionView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneViews\NewSubcategoryView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneViews\NewEmployeeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneViews\OverdueChargeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneViews\NewPublisherView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AllViews\AllBorrowingsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AllViews\AllEmployeesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AllViews\AllPublicationsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AllViews\AllUsersView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneViews\BorrowingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneViews\NewAuthorView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneViews\NewPublicationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneViews\NewUserView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneViews\StockUpdateView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AllViews\StockView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneViews\ReturningView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Reports\SettlementReportView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OneViews\UpdateDailyRateView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Themes\Generic.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AllViews\AllAuthorsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AllViews\AllPublishersView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AllViews\AllOverdueChargesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OneViews\NewCategoryView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OneViews\NewLocationView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OneViews\NewPositionView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OneViews\NewSubcategoryView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OneViews\NewEmployeeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OneViews\OverdueChargeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OneViews\NewPublisherView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AllViews\AllBorrowingsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AllViews\AllEmployeesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AllViews\AllPublicationsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AllViews\AllUsersView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OneViews\BorrowingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MainWindowResources.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OneViews\NewAuthorView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OneViews\NewPublicationView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OneViews\NewUserView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Reports\ReportStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OneViews\StockUpdateView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AllViews\StockView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AllViews\AllViewResources.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OneViews\TabStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OneViews\ReturningView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Reports\SettlementReportView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OneViews\UpdateDailyRateView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

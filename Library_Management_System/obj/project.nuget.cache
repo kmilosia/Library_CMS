@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "/JK2GWV+c6PuRVVnZKK+jbYWRLGMPOF8+lc10JtdLkRXma4Fy2oFpNWsuDQn08tueNjTZ0PxK5+n9B3yvih3tA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\klaud\\Downloads\\555471_414119_Biblioteka\\Biblioteka\\Library_Management_System\\Library_Management_System.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\klaud\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
+    "C:\\Users\\klaud\\.nuget\\packages\\commonservicelocator\\2.0.2\\commonservicelocator.2.0.2.nupkg.sha512",
+    "C:\\Users\\klaud\\.nuget\\packages\\entityframework\\5.0.0\\entityframework.5.0.0.nupkg.sha512",
+    "C:\\Users\\klaud\\.nuget\\packages\\itextsharp\\5.5.13.3\\itextsharp.5.5.13.3.nupkg.sha512",
+    "C:\\Users\\klaud\\.nuget\\packages\\mvvmlight\\5.4.1\\mvvmlight.5.4.1.nupkg.sha512",
+    "C:\\Users\\klaud\\.nuget\\packages\\mvvmlightlibs\\5.4.1\\mvvmlightlibs.5.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

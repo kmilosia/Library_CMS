@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr V\\Programowanie desktopowych aplikacji biznesowych\\LibDatProject\\Library_Management_System\\Library_Management_System.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr V\\Programowanie desktopowych aplikacji biznesowych\\LibDatProject\\Library_Management_System\\Library_Management_System.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr V\\Programowanie desktopowych aplikacji biznesowych\\LibDatProject\\Library_Management_System\\Library_Management_System.csproj",
+        "projectName": "Library_Management_System",
+        "projectPath": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr V\\Programowanie desktopowych aplikacji biznesowych\\LibDatProject\\Library_Management_System\\Library_Management_System.csproj",
+        "packagesPath": "C:\\Users\\klaud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr V\\Programowanie desktopowych aplikacji biznesowych\\LibDatProject\\Library_Management_System\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\klaud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

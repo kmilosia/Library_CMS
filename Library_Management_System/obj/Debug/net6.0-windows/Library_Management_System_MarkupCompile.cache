@@ -1,0 +1,20 @@
+﻿Library_Management_System
+
+
+winexe
+C#
+.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net6.0-windows\
+Library_Management_System
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\App.xaml
+10-1959056944
+
+222131468545
+197-2136997781
+Views\AllBooksView.xaml;Views\AllUsersView.xaml;Views\MainWindow.xaml;Views\MainWindowResources.xaml;Views\NewBookView.xaml;Views\NewUserView.xaml;Views\RentingView.xaml;Views\ReturnView.xaml;Views\StockView.xaml;Views\StyleResources.xaml;
+
+False
+

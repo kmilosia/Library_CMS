@@ -1,0 +1,75 @@
+﻿<local:OneViewBase x:Class="Library_Management_System.Views.BorrowingView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Library_Management_System.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary Source="TabStyle.xaml"/>
+    </UserControl.Resources>
+    <Grid Style="{StaticResource LightGrid}">
+        <Border Style="{StaticResource WindowBorder}" Margin="120 20">
+            <StackPanel Style="{StaticResource CenteredStackpanel}">
+                <Label Content="Wypożycz publikację" Style="{StaticResource h2}"/>
+                <Grid Style="{StaticResource WindowGrid}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Content="*Publikacja:" Grid.Column="0" Grid.Row="0" Style="{StaticResource Text-Form}"/>
+                    <ComboBox Grid.Column="1" Grid.Row="0" Style="{StaticResource Combobox-Form}" Validation.ErrorTemplate="{StaticResource validationTemplate}"
+                        ItemsSource="{Binding PublicationsComboBoxItems}"
+                        DisplayMemberPath="Value"
+                        SelectedValuePath="Key"
+                        SelectedValue="{Binding Path=IDPublication, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True, Mode=TwoWay}"          
+                    />
+                    <Button Grid.Row="0" Grid.Column="2" Style="{StaticResource SearchButton}" Command="{Binding ShowPublicationsCommand}"/>
+                    <Grid Grid.Column="1" Grid.Row="1" Style="{StaticResource ButtonLabelGrid}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Style="{StaticResource NumberLabel}" Content="{Binding AvailableAmount, UpdateSourceTrigger=PropertyChanged}"/>
+                        <Button Grid.Column="1" Style="{StaticResource TextButton}" Content="Pokaż dostępne sztuki" Command="{Binding ShowAmountCommand}"/>
+                    </Grid>
+                    <Label Content="*Użytkownik:" Grid.Column="0" Grid.Row="2" Style="{StaticResource Text-Form}"/>
+                    <ComboBox Grid.Column="1" Grid.Row="2" Style="{StaticResource Combobox-Form}"
+                        ItemsSource="{Binding UsersComboBoxItems}"
+                        DisplayMemberPath="Value"
+                        SelectedValuePath="Key"
+                        SelectedValue="{Binding Path=IDUser, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                    />
+                    <Button Grid.Row="2" Grid.Column="2" Style="{StaticResource SearchButton}" Command="{Binding ShowUsersCommand}"/>
+                    <Label Content="*Pracownik obsługujący:" Grid.Column="0" Grid.Row="3" Style="{StaticResource Text-Form}"/>
+                    <ComboBox Grid.Column="1" Grid.Row="3" Width="200" Height="25" Style="{StaticResource Combobox-Form}"
+                        ItemsSource="{Binding EmployeesComboBoxItems}"
+                        DisplayMemberPath="Value"
+                        SelectedValuePath="Key"
+                        SelectedValue="{Binding Path=IDEmployee, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"          
+                    />
+                    <Button Grid.Row="3" Grid.Column="2"  Style="{StaticResource SearchButton}" Command="{Binding ShowEmployeesCommand}"/>
+                    <Label Content="*Data wypożyczenia:" Grid.Column="0" Grid.Row="4" Style="{StaticResource Text-Form}"/>
+                    <DatePicker Grid.Column="1" Grid.Row="4" Style="{StaticResource datepickerInError}" Validation.ErrorTemplate="{StaticResource validationTemplate}" SelectedDate="{Binding Path=BorrowingDate, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, ValidatesOnDataErrors=True}"/>
+                    <Label Content="*Termin oddania:" Grid.Column="0" Grid.Row="5" Style="{StaticResource Text-Form}"/>
+                    <DatePicker Grid.Column="1" Grid.Row="5" Style="{StaticResource datepickerInError}" Validation.ErrorTemplate="{StaticResource validationTemplate}" SelectedDate="{Binding Path=ReturningDeadline, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, ValidatesOnDataErrors=True}"/>
+                    <Label Content="Uwagi:" Grid.Row="6" Grid.Column="0" Style="{StaticResource First-Text-Form}"/>
+                    <TextBox Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="7" Height="60" Style="{StaticResource LongRemarksTextbox}" Text="{Binding Remarks, UpdateSourceTrigger=PropertyChanged}"/>
+                </Grid>
+            </StackPanel>
+        </Border>
+    </Grid>
+</local:OneViewBase>
+

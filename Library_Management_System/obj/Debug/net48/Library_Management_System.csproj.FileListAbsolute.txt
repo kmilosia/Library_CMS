@@ -1,0 +1,221 @@
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\Library_Management_System.exe.config
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\Library_Management_System.exe
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\Library_Management_System.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\EntityFramework.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.Windows.Forms.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\System.Drawing.Common.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\System.Drawing.VisualStudio.15.0.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.WinForms.Interfaces.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.Utilities.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.Imaging.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.ImageCatalog.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\System.Threading.Tasks.Dataflow.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\en\Microsoft.VisualStudio.Utilities.resources.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\en\Microsoft.VisualStudio.Imaging.resources.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\bin\Debug\net48\en\Microsoft.VisualStudio.ImageCatalog.resources.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Library_Management_System.csproj.AssemblyReference.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Library_Management_System.csproj.SuggestedBindingRedirects.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Library_Management_System.exe.config
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\StyleResources.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\AllBooksView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\AllUsersView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\MainWindow.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\NewBookView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\NewUserView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\RentingView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\ReturnView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\StockView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\App.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\GeneratedInternalTypeHelper.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Library_Management_System_MarkupCompile.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Library_Management_System_MarkupCompile.lref
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\AllBooksView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\AllUsersView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\MainWindow.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\MainWindowResources.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\NewBookView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\NewUserView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\RentingView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\ReturnView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\StockView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Library_Management_System.g.resources
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Library_Management_System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Library_Management_System.AssemblyInfoInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Library_Management_System.AssemblyInfo.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Library_Management_System.csproj.CoreCompileInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Library_Management_System.csproj.CopyComplete
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Library_Management_System.exe
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Library_Management_System.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Themes\Generic.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\ReportView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\ReportView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\NewCopyView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\NewCopyView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\AllRentsView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\AllRentsView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\LibDatProject\Library_Management_System\obj\Debug\net48\Views\TabStyle.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Library_Management_System.csproj.AssemblyReference.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\MainWindow.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\App.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\GeneratedInternalTypeHelper.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Library_Management_System_MarkupCompile.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Library_Management_System_MarkupCompile.lref
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Library_Management_System.exe
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Library_Management_System.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Themes\Generic.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\MainWindow.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\Library_Management_System.exe.config
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\Library_Management_System.exe
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\Library_Management_System.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\EntityFramework.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.Windows.Forms.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\System.Drawing.Common.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\System.Drawing.VisualStudio.15.0.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.WinForms.Interfaces.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.Utilities.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.Imaging.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.ImageCatalog.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\System.Threading.Tasks.Dataflow.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\en\Microsoft.VisualStudio.Utilities.resources.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\en\Microsoft.VisualStudio.Imaging.resources.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\en\Microsoft.VisualStudio.ImageCatalog.resources.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\MainWindowResources.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Library_Management_System.g.resources
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Library_Management_System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Library_Management_System.AssemblyInfoInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Library_Management_System.AssemblyInfo.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Library_Management_System.csproj.CoreCompileInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Library_Management_System.csproj.CopyComplete
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\AllBorrowingsView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\AllEmployeesView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\AllPublicationsView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\AllUsersView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\BorrowingView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewPublicationView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewUserView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\StockUpdateView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\AllBorrowingsView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\AllEmployeesView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\AllPublicationsView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\AllUsersView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\BorrowingView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewPublicationView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewUserView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\StockUpdateView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\TabStyle.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\StockView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\StockView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\Reports\ReportStyle.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewAuthorView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewAuthorView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewPublisherView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewPublisherView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\ReturningView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\ReturningView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewEmployeeView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewEmployeeView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\OverdueChargeView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\OverdueChargeView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\AllOverdueChargesView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\AllOverdueChargesView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\CommonServiceLocator.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\GalaSoft.MvvmLight.Extras.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\GalaSoft.MvvmLight.Platform.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\GalaSoft.MvvmLight.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\System.Windows.Interactivity.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Library_Management_System.csproj.AssemblyReference.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\TabStyle.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\Reports\ReportStyle.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\AllViews\AllBorrowingsView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\AllViews\AllEmployeesView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\AllViews\AllPublicationsView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\AllViews\AllUsersView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\AllViews\StockView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\MainWindow.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\BorrowingView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\NewAuthorView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\NewEmployeeView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\NewPublicationView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\NewPublisherView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\NewUserView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\ReturningView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\StockUpdateView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\App.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\GeneratedInternalTypeHelper.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Library_Management_System_MarkupCompile.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Library_Management_System_MarkupCompile.lref
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Library_Management_System.exe
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Library_Management_System.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\Library_Management_System.exe.config
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\Library_Management_System.exe
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\Library_Management_System.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\CommonServiceLocator.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\EntityFramework.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\GalaSoft.MvvmLight.Extras.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\GalaSoft.MvvmLight.Platform.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\GalaSoft.MvvmLight.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\System.Windows.Interactivity.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.Windows.Forms.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\System.Drawing.Common.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\System.Drawing.VisualStudio.15.0.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.WinForms.Interfaces.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.Utilities.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.Imaging.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\Microsoft.VisualStudio.ImageCatalog.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\System.Threading.Tasks.Dataflow.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\en\Microsoft.VisualStudio.Utilities.resources.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\en\Microsoft.VisualStudio.Imaging.resources.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\bin\Debug\net48\en\Microsoft.VisualStudio.ImageCatalog.resources.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Themes\Generic.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\AllViews\AllBorrowingsView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\AllViews\AllEmployeesView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\AllViews\AllPublicationsView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\AllViews\AllUsersView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\AllViews\StockView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\MainWindow.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\MainWindowResources.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\BorrowingView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\NewAuthorView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\NewEmployeeView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\NewPublicationView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\NewPublisherView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\NewUserView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\ReturningView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\StockUpdateView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Library_Management_System.g.resources
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Library_Management_System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Library_Management_System.AssemblyInfoInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Library_Management_System.AssemblyInfo.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Library_Management_System.csproj.CoreCompileInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Library_Management_System.csproj.CopyComplete
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\AllViews\AllViewResources.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\OverdueChargeView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\OneViews\OverdueChargeView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\AllViews\AllOverdueChargesView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\AllViews\AllOverdueChargesView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\Reports\SettlementReportView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka - Copy\Library_Management_System\obj\Debug\net48\Views\Reports\SettlementReportView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\AllViewResources.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\Reports\SettlementReportView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\Reports\SettlementReportView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Library_Management_System_Content.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\App.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\AllAuthorsView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\AllPublishersView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\AllAuthorsView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\AllViews\AllPublishersView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewCategoryView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewLocationView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewPositionView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewSubcategoryView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\UpdateDailyRateView.g.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewCategoryView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewLocationView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewPositionView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\NewSubcategoryView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\obj\Debug\net48\Views\OneViews\UpdateDailyRateView.baml
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\BouncyCastle.Crypto.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr V\Programowanie desktopowych aplikacji biznesowych\Biblioteka\Library_Management_System\bin\Debug\net48\itextsharp.dll

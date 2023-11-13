@@ -1,0 +1,63 @@
+﻿<local:OneViewBase x:Class="Library_Management_System.Views.StockUpdateView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Library_Management_System.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary Source="TabStyle.xaml"/>
+    </UserControl.Resources>
+    <Grid Style="{StaticResource LightGrid}">
+        <Border Style="{StaticResource WindowBorder}" Margin="120 30">
+                <StackPanel Style="{StaticResource CenteredStackpanel}">
+                <Label Content="Aktualizuj stan magazynowy" Style="{StaticResource h2}"/>
+                <Grid Style="{StaticResource WindowGrid}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="240"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Label Content="*Publikacja:" Style="{StaticResource Text-Form}"/>
+                        <ComboBox Grid.Column="1" Style="{StaticResource Combobox-Form}"
+                        ItemsSource="{Binding PublicationsComboBoxItems}"
+                        DisplayMemberPath="Value"
+                        SelectedValuePath="Key"
+                        SelectedValue="{Binding Path=IDPublication, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"          
+                        />
+                        <Button Grid.Column="2" Style="{StaticResource SearchButton}" Command="{Binding ShowPublicationsCommand}"/>
+                        <Label Content="Aktualna liczba na stanie:" Grid.Row="1" Style="{StaticResource Text-Form}"/>
+                        <Grid Grid.Column="1" Grid.Row="1" Style="{StaticResource ButtonLabelGrid}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                            <Label Style="{StaticResource NumberLabel}" Content="{Binding AmountOnStock, UpdateSourceTrigger=PropertyChanged}"/>
+                            <Button Grid.Column="1" Style="{StaticResource TextButton}" Content="Pokaż stan publikacji" Command="{Binding ShowAmountCommand}"/>
+                        </Grid>
+                        <Label Content="*Zmień liczbę sztuk na:" Grid.Row="2" Style="{StaticResource Text-Form}"/>
+                        <TextBox Grid.Column="1" Grid.Row="2" Style="{StaticResource textBoxInError}" Validation.ErrorTemplate="{StaticResource validationTemplate}" Text="{Binding Path=Amount, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True, TargetNullValue=''}"/>
+                        <Label Content="*Pracownik modyfikujący:" Grid.Row="3" Style="{StaticResource Text-Form}"/>
+                        <ComboBox Grid.Column="1" Grid.Row="3" Style="{StaticResource Combobox-Form}"
+                        ItemsSource="{Binding EmployeesComboBoxItems}"
+                        DisplayMemberPath="Value"
+                        SelectedValuePath="Key"
+                        SelectedValue="{Binding Path=IDEmployee, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                        />
+                        <Button Grid.Row="3" Grid.Column="2" Style="{StaticResource SearchButton}" Command="{Binding ShowEmployeesCommand}"/>
+                        <Label Content="*Data modyfikacji:" Grid.Row="4" Style="{StaticResource Text-Form}"/>
+                        <DatePicker Grid.Column="1" Grid.Row="4" Style="{StaticResource Datepicker-Form}" SelectedDate="{Binding Path=LastModified, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                </Grid>
+                </StackPanel>
+            </Border>
+    </Grid>
+</local:OneViewBase>
